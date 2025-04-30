@@ -7,9 +7,7 @@ services:
     volumes:
       - n8n_data:/home/node/.n8n
     restart: unless-stopped
-    environment:
-      - WEBHOOK_URL=https://5603-99-229-3-33.ngrok-free.app
-
 
 volumes:
   n8n_data:
+
